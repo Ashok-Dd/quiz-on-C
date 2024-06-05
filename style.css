@@ -1,0 +1,48 @@
+.container{
+    margin-left: 25%;
+    border: 5px solid black;
+    padding: 2%;
+    width: 50%;
+    height: 450px;
+    background-color: rgb(240, 249, 167);
+    margin-top: 125px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    padding-top: 0%;
+}
+.choice {
+    display: flex;
+    align-items: center;
+}
+
+
+.choice input[type="radio"] {
+    margin-right: 10px; 
+}
+h3{
+    text-align: center;
+}
+
+.container h1{
+    font-size: 2em;
+}
+.container p{
+    font-size: 20px;
+}
+input[type="radio"] {
+    transform: scale(1.5);
+    margin: 10px;
+}
+.container button{
+    margin-left: 44%;
+    background-color: orange;
+    width: 120px;
+    height:40px;
+    transition: background-color 0.3s;
+    border-radius: 20px;
+    margin-bottom: 1%;
+}
+button:hover{
+    background-color: rgb(20, 6, 1);
+    color: whitesmoke;
+}
