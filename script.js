@@ -199,7 +199,7 @@ submitBtn.addEventListener('click', () => {
             loadQuiz();
         } else {
             quiz.innerHTML = `
-                <h2 style="margin-top: 29%;">You answered ${score}/${questionPaper.length} questions correctly.</h2>
+                <h2 style="margin-top: 26%;">You answered ${score}/${questionPaper.length} questions correctly.</h2>
                 <button onclick="location.reload()">Restart</button>
             `;
         }
