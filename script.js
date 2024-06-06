@@ -146,7 +146,7 @@ const questionPaper =[
         c:"#define long lon",
         d:"#define II long long",
         correct:"d"
-
+        
         
     }
 
@@ -161,6 +161,7 @@ const b_text = document.getElementById('b');
 const c_text = document.getElementById('c');
 const d_text = document.getElementById('d');
 const submitBtn = document.getElementById('submit');
+const prevBtn = document.getElementById('prev');
 const scoreEl = document.getElementById('score');
 
 loadQuiz();
@@ -199,8 +200,9 @@ submitBtn.addEventListener('click', () => {
             loadQuiz();
         } else {
             quiz.innerHTML = `
-                <h2 style="margin-top: 26%;">You answered ${score}/${questionPaper.length} questions correctly.</h2>
-                <button onclick="location.reload()">Restart</button>
+                <h2 style="margin-top: 26%; text-align:center;">You answered ${score}/${questionPaper.length} questions correctly.</h2>
+                
+                <button onclick="location.reload()" class="buttons">Restart</button>
             `;
         }
     }

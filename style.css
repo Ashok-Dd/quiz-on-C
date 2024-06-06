@@ -41,13 +41,14 @@ input[type="radio"] {
     transition: background-color 0.3s;
     border-radius: 20px;
     margin-bottom: 1%;
+    
 }
+
 button:hover{
     background-color: rgb(20, 6, 1);
     color: whitesmoke;
 }
 @media screen and (max-width:480px){
-
     .container{
     margin-left: 0%;
     margin-left: 2%;
